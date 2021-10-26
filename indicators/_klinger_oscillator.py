@@ -8,8 +8,8 @@ File name: _klinger_oscillator.py
 import pandas as pd
 
 from ._technical_indicator import TechnicalIndicator
-from ..utils.constants import TRADE_SIGNALS
-from ..utils.exceptions import NotEnoughInputData
+from utils.constants import TRADE_SIGNALS
+from utils.exceptions import NotEnoughInputData
 
 
 class KlingerOscillator(TechnicalIndicator):
