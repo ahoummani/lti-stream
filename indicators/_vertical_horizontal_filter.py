@@ -10,8 +10,8 @@ import pandas as pd
 from ._technical_indicator import TechnicalIndicator
 from ._double_exponential_moving_average import DoubleExponentialMovingAverage
 from ._momentum import Momentum
-from ..utils.constants import TRADE_SIGNALS
-from ..utils.exceptions import NotEnoughInputData, WrongTypeForInputParameter,\
+from utils.constants import TRADE_SIGNALS
+from utils.exceptions import NotEnoughInputData, WrongTypeForInputParameter,\
     WrongValueForInputParameter
 
 

@@ -9,8 +9,8 @@ import pandas as pd
 import numpy as np
 
 from ._technical_indicator import TechnicalIndicator
-from ..utils.constants import TRADE_SIGNALS
-from ..utils.exceptions import NotEnoughInputData, WrongTypeForInputParameter,\
+from utils.constants import TRADE_SIGNALS
+from utils.exceptions import NotEnoughInputData, WrongTypeForInputParameter,\
     WrongValueForInputParameter
 
 

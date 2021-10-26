@@ -6,8 +6,8 @@ File name: _standard_deviation.py
 """
 
 from ._technical_indicator import TechnicalIndicator
-from ..utils.constants import TRADE_SIGNALS
-from ..utils.exceptions import NotEnoughInputData, WrongTypeForInputParameter,\
+from utils.constants import TRADE_SIGNALS
+from utils.exceptions import NotEnoughInputData, WrongTypeForInputParameter,\
     WrongValueForInputParameter
 
 
