@@ -8,8 +8,8 @@ File name: _average_true_range.py
 import pandas as pd
 
 from ._technical_indicator import TechnicalIndicator
-from ..utils.constants import TRADE_SIGNALS
-from ..utils.exceptions import NotEnoughInputData
+from utils.constants import TRADE_SIGNALS
+from utils.exceptions import NotEnoughInputData
 
 
 class AverageTrueRange(TechnicalIndicator):
