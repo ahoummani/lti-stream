@@ -8,8 +8,8 @@ File name: trading_simulation.py
 
 import pandas as pd
 import numpy as np
-from ..utils.data_validation import validateInputData
-from ..utils.exceptions import WrongTypeForInputParameter, \
+from utils.data_validation import validateInputData
+from utils.exceptions import WrongTypeForInputParameter, \
     NotValidInputDataForSimulation, WrongValueForInputParameter
 
 
