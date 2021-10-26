@@ -10,11 +10,11 @@ import matplotlib.pyplot as plt
 from abc import ABC, abstractmethod
 
 from .properties.indicators_properties import INDICATORS_PROPERTIES
-from .utils.plot import linesGraph
-from .utils.data_validation import validateInputData
-from .utils.exceptions import WrongTypeForInputParameter, \
+from utils.plot import linesGraph
+from utils.data_validation import validateInputData
+from utils.exceptions import WrongTypeForInputParameter, \
     TtiPackageDeprecatedMethod
-from .utils.trading_simulation import TradingSimulation
+from utils.trading_simulation import TradingSimulation
 
 
 class TechnicalIndicator(ABC):
