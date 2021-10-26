@@ -8,7 +8,7 @@ File name: _accumulation_distribution_line.py
 import pandas as pd
 
 from ._technical_indicator import TechnicalIndicator
-from ..utils.constants import TRADE_SIGNALS
+from utils.constants import TRADE_SIGNALS
 
 
 class AccumulationDistributionLine(TechnicalIndicator):
