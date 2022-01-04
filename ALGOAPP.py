@@ -34,7 +34,7 @@ plt.rcParams['figure.figsize'] = (10,8)
 # In[12]:
 
 
-@st.cache(suppress_st_warning=True)
+
 def getsec():
     return list(Data.MasiComposition()['symbols'])
 
@@ -56,7 +56,7 @@ end = st.sidebar.date_input('End date', datetime.date(2016,6,1))
 
 start = start.strftime('%Y-%m-%d')
 end = end.strftime('%Y-%m-%d')
-@st.cache(suppress_st_warning=True)
+
 def getData(name, start, end):
     data=Data.GetSingleData(name, start=start, end=end)
     data.index = pd.to_datetime(data.index)
